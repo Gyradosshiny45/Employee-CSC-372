@@ -3,8 +3,8 @@ package employee;
 class Manager extends Employee {
 	public static void main(String[] args) {
 		Employee Billie = new Manager(null, null, 005, 0, "departmentA");
-		Billie.setFirstName("Billie");
-		Billie.setLastName("Eilish");
+		Billie.setfirstName("Billie");
+		Billie.setlastName("Eilish");
 		Billie.employeeSummary();
 	}
 
